@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,32 +9,98 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 </head>
-
 <body>
-    <div class="container">
-        <div>
-            <p>Computação e Sociedade - Trabalho</p>
-            <ul>
-                <li><a href="#">Trabalho da página do curso</a></li>
-            </ul>
-            <p>Computação e Sociedade - Tarefas</p>
-            <ul>
-                <li><a href="./Pagina-VisitaTecnica/">Questões sobre visitas técnicas</a></li>
-                <li><a href="./Pagina-IA/">Questões sobre Inteligência Artificial</a></li>
-                <li><a href="./Pagina-PPC/">Questões sobre o PPC do curso</a></li>
-                <li><a href="./Pagina-LGPD/">Questões sobre a LGPD - Lei Geral de Proteção de Dados</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="./layout_set_logo.png" alt="ifsc logo" class="logo">
+                <span class="ms-2">IFSC - Câmpus Lages</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Computação e Sociedade
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./Site-CC/">Trabalho da página do curso</a></li>
+                            <li><a class="dropdown-item" href="./Pagina-VisitaTecnica/">Questões sobre visitas
+                                    técnicas</a></li>
+                            <li><a class="dropdown-item" href="./Pagina-IA/">Questões sobre Inteligência Artificial</a>
+                            </li>
+                            <li><a class="dropdown-item" href="./Pagina-PPC/">Questões sobre o PPC do curso</a></li>
+                            <li><a class="dropdown-item" href="./Pagina-LGPD/">Questões sobre a LGPD</a></li>
+                            <li><a class="dropdown-item" href="./Pagina-MoedasDigitais/">Questões sobre as moedas
+                                    digitais</a></li>
+                            <li><a class="dropdown-item" href="./Pagina-PrototipacaoInterfaces/">Questões sobre
+                                    prototipação de sistemas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Introdução à Programação
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./Pagina-Lista1/">Lista 1</a></li>
+                            <li><a class="dropdown-item" href="./Pagina-Lista/">Lista 2</a></li>
+                            <li><a class="dropdown-item" href="./Pagina-Lista3/">Lista 3</a></li>
+                            <li><a class="dropdown-item" href="./Pagina-Lista2/">Lista 4</a></li>
+                            <li><a class="dropdown-item" href="./Pagina-Lista4/">Lista 5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <p>Introdução à Programação - Listas de exercício</p>
+    </nav>
+    <div class="container my-5">
+        <section>
+            <img src="https://scontent.ffln1-1.fna.fbcdn.net/v/t39.30808-1/429969492_2051766608543122_774710855147169058_n.jpg?stp=dst-jpg_p200x200&_nc_cat=100&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeG-KbRkcjNIwXTA3LyKxq42GN64gxouRPUY3riDGi5E9VeR3cp2tdwVZ1kB9FlD3eOKXlzzP5e5gjGEg89ecGS6&_nc_ohc=10BKlKHMFRkQ7kNvgGRqxHs&_nc_ht=scontent.ffln1-1.fna&oh=00_AYDnzzpWGYNrXQIuy6ZMS_cs7FTX8IKfcKC_GcXEhP0ZHg&oe=669090AB" alt="Usuario" class="foto">
+               <h1>Dev Giordan Ebertz</h1>
+            <h3>Sou um estudante de programação apaixonado por criar soluções inovadoras.</h3>
+        </section>
+    
+        <section>
+            <h2>Sobre Mim</h2>
             <ul>
-                <li><a href="./Pagina-Lista1/">Lista 1</a></li>
-                <li><a href="#">Lista 2</a></li>
+                <p>Olá, me chamo Giordan Ebertz, tenho 18 anos. Sou natural de Lages, SC.</p>
+                <p>Desde pequeno sempre almejei entrar na área de TI. </p>
+                <p>Sou fascinado em como funciona redes lógicas. </p>
+                <p>Concluí um curso na área de desenvolvimento de sistemas no Senai.</p> 
+                <p>Atualmente estou cursando Ciência da Computação no IFSC de lages. </p>
             </ul>
-        </div>
+        </section> 
+        <section>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Python</li>
+                <li>C#</li>
+            </ul>
+        </section>
+    
+        <section>
+            <h2>Projetos Recentes</h2>
+            <p>Recentemente participei de uma amostra do conhecimento do Colégio Policial Militar, colégio a qual estudei.</p>
+            <p>Criei um projeto utilizando arduíno que automatizava a iluminação dos faróis de uma viatura da polícia militar.</p>
+            <p>E como o tema era sustentabilidade, energizei o circuito com energia solar, que estava na traseira da miniatura.</p>
+            <img src="https://scontent.ffln1-1.fna.fbcdn.net/v/t39.30808-6/407177842_1999279330458517_6326503672443766415_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFJ6o4m--Mb-tJ0FBtyIedev2MrqpsZkQ-_YyuqmxmRD0zQzthvKyo1qIpZqBrIWx0Mj7LX1l_Vyh_PmldjpR21&_nc_ohc=qf5_ajR6HLcQ7kNvgGDmVEi&_nc_ht=scontent.ffln1-1.fna&oh=00_AYCIja-fNUuHRRYEf00oU5CTLeqOqk1-NkZjjtEhqGaO6Q&oe=669093B8" alt="Usuario" width="350" height="350" border-radius: 10px>
+        </section>
     </div>
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 IFSC</p>
+    </footer>
 </body>
-
 </html>
