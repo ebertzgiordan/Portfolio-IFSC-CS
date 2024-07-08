@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciência da Computação - IFSC - Câmpus Lages - Página Inicial</title>
+    <title>Ciência da Computação - IFSC - Câmpus Lages - Dupla Titulação</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./">
-                <img src="./img/logo_cc.png" alt="Logo" width="32" height="32" class="d-inline-block align-text-top">
+            <a class="navbar-brand" href="../">
+                <img src="../img/logo_cc.png" alt="Logo" width="32" height="32" class="d-inline-block align-text-top">
                 Ciência da Computação - IFSC - Câmpus Lages
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -34,19 +35,19 @@
                             Informações
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./historia/">História</a></li>
-                            <li><a class="dropdown-item" href="./ppc/">Projeto Pedagógico do Curso (PPC)</a></li>
-                            <li><a class="dropdown-item" href="./grade-curricular/">Grade curricular</a></li>
-                            <li><a class="dropdown-item" href="./coordenacao/">Coordenação do curso</a></li>
-                            <li><a class="dropdown-item" href="./atividades-complementares/">Atividades
+                            <li><a class="dropdown-item" href="../historia/">História</a></li>
+                            <li><a class="dropdown-item" href="../ppc/">Projeto Pedagógico do Curso (PPC)</a></li>
+                            <li><a class="dropdown-item" href="../grade-curricular/">Grade curricular</a></li>
+                            <li><a class="dropdown-item" href="../coordenacao/">Coordenação do curso</a></li>
+                            <li><a class="dropdown-item" href="../atividades-complementares/">Atividades
                                     Complementares</a></li>
-                            <li><a class="dropdown-item" href="./corpo-docente/">Corpo docente</a></li>
-                            <li><a class="dropdown-item" href="./colegiado-e-nde">Colegiado e NDE</a></li>
-                            <li><a class="dropdown-item" href="./egressos/">Egressos do curso</a></li>
-                            <li><a class="dropdown-item" href="./intercambio-propicie/">Intercâmbio PROPICIE</a></li>
-                            <li><a class="dropdown-item" href="./dupla-titulacao/">Dupla titulação</a></li>
-                            <li><a class="dropdown-item" href="./estagios/">Estágios</a></li>
-                            <li><a class="dropdown-item" href="./documentos-importantes/">Documentos importantes</a>
+                            <li><a class="dropdown-item" href="../corpo-docente/">Corpo docente</a></li>
+                            <li><a class="dropdown-item" href="../colegiado-e-nde">Colegiado e NDE</a></li>
+                            <li><a class="dropdown-item" href="../egressos/">Egressos do curso</a></li>
+                            <li><a class="dropdown-item" href="../intercambio-propicie/">Intercâmbio PROPICIE</a></li>
+                            <li><a class="dropdown-item" href="../dupla-titulacao/">Dupla titulação</a></li>
+                            <li><a class="dropdown-item" href="../estagios/">Estágios</a></li>
+                            <li><a class="dropdown-item" href="../documentos-importantes/">Documentos importantes</a>
                             </li>
                         </ul>
                     </li>
@@ -67,249 +68,262 @@
         </div>
     </nav>
     <div class="container">
-        <main>
-            <!-- Carrossel -->
-            <div class="row mt-1">
-                <div class="col-xxl-9 mb-1">
-                    <div class="text-center">
-                        <h5 class="d-inline-block">Notícias em destaque</h5>
-                    </div>
-                    <div id="id-carrosselNoticiaDestaque" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#id-carrosselNoticiaDestaque" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 0"></button>
-                            <button type="button" data-bs-target="#id-carrosselNoticiaDestaque" data-bs-slide-to="1"
-                                aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#id-carrosselNoticiaDestaque" data-bs-slide-to="2"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#id-carrosselNoticiaDestaque" data-bs-slide-to="3"
-                                aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#id-carrosselNoticiaDestaque" data-bs-slide-to="4"
-                                aria-label="Slide 4"></button>
-                        </div>
-                        <div class="carousel-inner rounded">
-                            <div class="carousel-item active">
-                                <img src="./img/aula-inaugural.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-                                    <h5>A diretora executiva do IFSC na data, Silvana Rosa Lisboa de Sá</h5>
-                                    <p>Aula inaugural do Curso de Ciência da Computação. 24 de fevereiro de 2015.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./img/aula-inaugural2.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-                                    <h5>Deputado Estadual Gabriel Ribeiro</h5>
-                                    <p>Aula inaugural do Curso de Ciência da Computação. 24 de fevereiro de 2015.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./img/aula-inaugural3.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-                                    <h5>Diretor-geral em exercício do Câmpus Lages na data, Thiago Meneghel Rodrigues
-                                    </h5>
-                                    <p>Aula inaugural do Curso de Ciência da Computação. 24 de fevereiro de 2015.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./img/aula-inaugural4.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-                                    <h5>A aula inaugural foi ministrada pelo professor Raul Sidnei Wazlawick</h5>
-                                    <p>Aula inaugural do Curso de Ciência da Computação. 24 de fevereiro de 2015.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./img/aula-inaugural5.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-                                    <h5>Público participante do evento</h5>
-                                    <p>Aula inaugural do Curso de Ciência da Computação. 24 de fevereiro de 2015.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button"
-                            data-bs-target="#id-carrosselNoticiaDestaque" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button"
-                            data-bs-target="#id-carrosselNoticiaDestaque" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+        <main style="text-align: justify;">
+
+            <div id=”dupla_titulacao”>
+                <h1>Dupla Titulação</h1>
+                <h4>Conheça um pouco do programa:</h4>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UwFOeKAldVQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen> </iframe>
                 </div>
-                <div class="col-xxl-3 my-auto">
-                    <div class="text-center">
-                        <h5 class="d-inline-block">Calendário acadêmico</h5>
-                        <a href="#">Ver todos</a>
-                    </div>
-                    <div class="card text-bg-success mb-1">
-                        <div class="card-header">26 fevereiro de 2024</div>
-                        <div class="card-body">
-                            <h6 class="card-title">Abertura do período acadêmico</h6>
-                            <p class="card-text">Início do semestre letivo.</p>
-                        </div>
-                    </div>
-                    <div class="card text-bg-success mb-1">
-                        <div class="card-header">29 março de 2024</div>
-                        <div class="card-body">
-                            <h6 class="card-title">Feriado</h6>
-                            <p class="card-text">Paixão de Cristo.</p>
-                        </div>
-                    </div>
-                    <div class="card text-bg-success mb-1">
-                        <div class="card-header">01 maio de 2024</div>
-                        <div class="card-body">
-                            <h6 class="card-title">Feriado</h6>
-                            <p class="card-text">Dia do trabalho.</p>
-                        </div>
-                    </div>
-                    <div class="card text-bg-success mb-1">
-                        <div class="card-header">30 maio de 2024</div>
-                        <div class="card-body">
-                            <h6 class="card-title">Feriado</h6>
-                            <p class="card-text">Corpus Christi.</p>
-                        </div>
-                    </div>
-                    <div class="card text-bg-success mb-1">
-                        <div class="card-header">9 julho de 2024</div>
-                        <div class="card-body">
-                            <h6 class="card-title">Encerramento do período acadêmico</h6>
-                            <p class="card-text">Final do semestre letivo.</p>
-                        </div>
-                    </div>
-                </div>
+                <p>
+                    O curso de Ciência da Computação assinou recentemente 3 acordos de Dupla Titulação com instituições
+                    portuguesas.
+                    Estes acordos permitem que discentes da Ciência da Computação do IFSC/Lages possam ingressar em
+                    cursos de mestrado em Portugal.
+                </p>
             </div>
-            <!-- Notícias -->
-            <div class="row mx-1 mt-1">
-                <div class="col-12">
-                    <h5 class="d-inline-block">Notícias</h5>
-                    <a href="#">Ver todas</a>
-                </div>
-                <div class="card col-lg-3 col-md-6 px-0">
-                    <img src="./img/noticia1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="https://www.ifsc.edu.br/web/noticias/w/ifsc-divulga-lista-de-candidatos-que-conseguiram-vaga-pela-lista-de-espera-do-sisu-2024"
-                            target="_blank">
-                            <h6>ESTUDE NO IFSC</h6>
-                        </a>
-                        <p class="card-text">IFSC divulga lista de candidatos que conseguiram vaga pela lista de
-                            espera do Sisu 2024
-                            Candidatos aprovados devem ficar atentos ao e-mail de confirmação de matrícula.</p>
-                    </div>
-                    <div class="card-footer text-center">
-                        29 de fevereiro de 2024
-                    </div>
-                </div>
-                <div class="card col-lg-3 col-md-6 px-0">
-                    <img src="./img/noticia2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="https://www.ifsc.edu.br/web/noticias/w/-ifsc-verifica-e-possivel-prever-o-futuro-"
-                            target="_blank">
-                            <h6>[IFSC Verifica] É possível prever o futuro?</h6>
-                        </a>
-                        <p class="card-text">Provisionar "os futuros" (sim, existe mais de um tipo de futuro) é
-                            uma
-                            ciência chamada Futurismo.</p>
-                    </div>
-                    <div class="card-footer text-center">
-                        27 de fevereiro de 2024
-                    </div>
-                </div>
-                <div class="card col-lg-3 col-md-6 px-0">
-                    <img src="./img/noticia3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="https://www.ifsc.edu.br/web/noticias/w/sepei-2024-chamada-para-atuar-na-avaliacao-dos-trabalhos-vai-ate-29-de-marco"
-                            target="_blank">
-                            <h6>Sepei 2024: chamada para atuar na avaliação dos trabalhos vai até 29 de março
-                            </h6>
-                        </a>
-                        <p class="card-text">Podem se inscrever servidores do IFSC, servidores de outras
-                            instituições de ensino e estudantes de mestrado e doutorado.</p>
-                    </div>
-                    <div class="card-footer text-center">
-                        27 de fevereiro de 2024
-                    </div>
-                </div>
-                <div class="card col-lg-3 col-md-6 px-0">
-                    <img src="./img/noticia4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="https://www.ifsc.edu.br/web/noticias/w/-blog-do-ifsc-com-quem-tirar-suas-duvidas-no-ifsc-"
-                            target="_blank">
-                            <h6>[Blog do IFSC] Com quem tirar suas dúvidas no IFSC?</h6>
-                        </a>
-                        <p class="card-text">Veja quais informações os diferentes setores do IFSC podem te
-                            fornecer.
-                        </p>
-                    </div>
-                    <div class="card-footer text-center">
-                        21 de fevereiro de 2024
-                    </div>
-                </div>
+
+            <div id=“tipos_mestrado”>
+                <h3>Cursos de Mestrado</h3>
+                <p>Os acordos são:</p>
+                <ul>
+                    <li>
+                        Graduação em Ciência da Computação do IFSC - Câmpus Lages e Mestrado em
+                        Engenharia Informática da Escola Superior de Tecnologia e Gestão (ESTG) do Instituto Politécnico
+                        Viana do Castelo (IPVC), na cidade de Viana do Castelo, região do Alto Minho (norte de
+                        Portugal). Quantidade de vagas: 3
+                    </li>
+
+                    <li>
+                        Graduação em Ciência da Computação do IFSC - Câmpus Lages e Mestrado em
+                        Cibersegurança da Escola Superior de Tecnologia e Gestão (ESTG) do Instituto Politécnico
+                        Viana do Castelo (IPVC), na cidade de Viana do Castelo, região do Alto Minho (norte de
+                        Portugal). Quantidade de vagas: 3;
+                    </li>
+
+                    <li>
+                        Graduação em Ciência da Computação do IFSC - Câmpus Lages e Mestrado em
+                        Engenharia Informática e Internet das Coisas da Escola Superior de Tecnologia e Gestão (ESTIG)
+                        do Instituto Politécnico de Beja (IPBeja), na cidade de Beja, região do Alentejo (sudeste de
+                        Portugal).. Quantidade de vagas: 3;
+                    </li>
+                </ul>
+                <p>
+                    Neste contexto, o IFSC possui uma reserva de 3 vagas para cada acordo relacionado ao Curso Ciência
+                    da Computação por ano, totalizando 9 das 13
+                    vagas oferecidas pelo campus.
+                    Os discentes acolhidos sob estes acordos estão isentos do pagamento de propinas (mensalidades) nos
+                    referidos cursos.
+                </p>
             </div>
-            <!-- Acesso rápido -->
-            <div class="row mx-1 mt-1">
-                <h5 class="col-12">Acesso rápido</h5>
-                <div class="card col-lg-2 col-md-4 col-6 px-0">
-                    <div class="my-auto">
-                        <img src="./img/acesso_ifsc.png" class="card-img-top p-5" alt="...">
-                    </div>
-                    <div class="card-footer text-center w-100">
-                        <a href="https://www.ifsc.edu.br/curso-aberto/-/asset_publisher/nvqSsFwoxoh1/content/id/657450"
-                            target="_blank">
-                            <p class="card-text">IFSC</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card col-lg-2 col-md-4 col-6 px-0">
-                    <div class="my-auto">
-                        <img src="./img/acesso_sigaa.png" class="card-img-top p-5" alt="...">
-                    </div>
-                    <div class="card-footer text-center">
-                        <a href="https://sigaa.ifsc.edu.br/sigaa/public/home.jsf" target="_blank">
-                            <p class="card-text">SIGAA</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card col-lg-2 col-md-4 col-6 px-0">
-                    <div class="my-auto">
-                        <img src="./img/acesso_sophia.jpg" class="card-img-top p-5" alt="...">
-                    </div>
-                    <div class="card-footer text-center">
-                        <a href="https://biblioteca.ifsc.edu.br/" target="_blank">
-                            <p class="card-text">Biblioteca</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card col-lg-2 col-md-4 col-6 px-0">
-                    <div class="my-auto">
-                        <img src="./img/acesso_gov.png" class="card-img-top p-5" alt="...">
-                    </div>
-                    <div class="card-footer text-center">
-                        <a href="https://www.gov.br/" target="_blank">
-                            <p class="card-text">GOV</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card col-lg-2 col-md-4 col-6 px-0">
-                    <div class="my-auto">
-                        <img src="./img/acesso_mec.jpg" class="card-img-top p-5" alt="...">
-                    </div>
-                    <div class="card-footer text-center">
-                        <a href="https://www.gov.br/mec/" target="_blank">
-                            <p class="card-text">MEC</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card col-lg-2 col-md-4 col-6 px-0">
-                    <div class="my-auto">
-                        <img src="./img/acesso_sbc.jpeg" class="card-img-top p-5" alt="...">
-                    </div>
-                    <div class="card-footer text-center">
-                        <a href="https://www.sbc.org.br/" target="_blank">
-                            <p class="card-text">SBC</p>
-                        </a>
-                    </div>
-                </div>
+
+            <div id=”objetivos”>
+                <h3>Objetivos do Acordo</h3>
+                <p>O Acordo de Dupla Titulação tem os seguintes objetivos: </p>
+                <ul>
+                    <li>
+                        Promover a mobilidade internacional dos discentes dos cursos de da
+                        Computação, Engenharia Mecânica e Tecnólogo em Gestão do Agronegócio do IFSC
+                        Câmpus Lages, possibilitando o contato com outras culturas e com vistas à
+                        ampliação das possibilidades de formação profissional e humana;
+                    </li>
+                    <li>
+                        Permitir a melhoria da qualidade da formação acadêmica dos discentes de
+                        graduação do IFSC Câmpus Lages;
+                    </li>
+                    <li>
+                        Contribuir para o intercâmbio entre docentes das instituições envolvidas,
+                        possibilitando assim o desenvolvimento de trabalhos de pesquisa em colaboração
+                        internacional;
+                    </li>
+                    <li>
+                        Estimular novas estratégias de desenvolvimento, modernização e internacionalização
+                        do ensino de graduação no IFSC.
+                    </li>
+                </ul>
+
+            </div>
+
+            <div id=”ingresso”>
+                <h3>Classificação dos Candidatos</h3>
+                <p>
+                    Para concorrer, o discente deverá ter concluído todas as disciplinas até a 6ª fase e algumas da 7ª
+                    fase.
+                </p>
+                <ul>
+                    <li>
+                        A seleção é realizada por uma combinação entre o coeficiente de rendimento acadêmico, ou seja, o
+                        CAA (40%), entrevista (40%) e índice de conclusão de disciplinas do curso (20%).
+                    </li>
+                    <li>
+                        Os discentes contemplados deverão obrigatoriamente cumprir o 1º ano de disciplinas na
+                        instituição em Portugal, ficando o 2º ano a critério do discente em cumprir em Portugal ou no
+                        IFSC.
+                    </li>
+                </ul>
+                <p>
+                    Anualmente o IFSC irá lançar editais para o processo de seleção de discentes para estas vagas
+                    (edital deste ano em anexo).
+                </p>
+            </div>
+            <div id="auxilio_financeiro">
+                <h3>Auxílio Financeiro</h3>
+                <p>A depender da disponibilidade financeira, o IFSC pode fornecer auxílio financeiro aos discentes
+                    contemplados seguindo as seguintes condições:</p>
+                <ul>
+                    <li>
+                        <h6>Classificação e Condições</h5>
+                            <p>O auxílio financeiro está condicionado à disponibilidade orçamentária do IFSC.</p>
+                            <p>O auxílio financeiro somente será pago por meio de depósito bancário em conta-corrente de
+                                titularidade do discente (não são aceitas contas de bancos digitais).</p>
+                    </li>
+                    <li>
+                        <h6>Montante e Distribuição</h6>
+                        <p>O presente Edital terá um montante total no valor de R$ 26.000,00 o qual poderá ser
+                            disponibilizado em até 5 (cinco) auxílios financeiros, a serem distribuídos respeitando:</p>
+                        <ul>
+                            <li>A alocação de 1 (um) auxílio financeiro para o primeiro colocado em cada um dos
+                                acordos.</li>
+                            <li>O auxílio financeiro alocado para um acordo que não possua discentes
+                                inscritos/selecionados terá seu valor dividido entre os acordos os quais possuam
+                                discentes inscritos/selecionados.</li>
+                            <li>Considerando o valor definido anteriormente e a distribuição definida no mesmo, o valor
+                                mínimo do auxílio financeiro será de R$ 5.200,00.</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h6>Observação</h6>
+                        <p>O auxílio financeiro não tem a finalidade de cobrir todas as despesas decorrentes da
+                            realização do intercâmbio, pois tais despesas são flutuantes de acordo com a variação das
+                            taxas de câmbio, preço de passagens aéreas, custos de hospedagem e alimentação, entre
+                            outras. Não haverá nenhum aditivo de auxílio financeiro por parte do IFSC. As despesas que
+                            ultrapassarem o valor do auxílio concedido pelo IFSC serão de responsabilidade do discente
+                            intercambista.</p>
+                    </li>
+                    <li>
+                        <h6>Depósito e Prazos</h6>
+                        <p>O auxílio financeiro, em Reais (R$), possui previsão de depósito na conta-corrente do
+                            discente contemplado até a data de partida para o intercâmbio.</p>
+                        <p>Em função de fluxos internos do IFSC, este prazo pode sofrer atrasos.</p>
+                    </li>
+
+                </ul>
+            </div>
+            <div id="normas_inscricao">
+                <h3>Normas de Inscrição</h3>
+                <p>
+                    Poderão candidatar-se à seleção os discentes do curso de Ciência da Computação IFSC - Câmpus Lages,
+                    que
+                    atendam às seguintes condições:
+                </p>
+                <ol type="a">
+                    <li>
+                        Ser brasileiro nato ou naturalizado no ato da inscrição;
+                    </li>
+                    <li>
+                        Estar regularmente matriculado em um dos cursos citados no item 6.1 deste Edital no ato
+                        da inscrição;
+                    </li>
+                    <li>
+                        Para discentes do curso de Ciência da Computação, ter integralizado todas as unidades
+                        curriculares até a 7ª fase do curso até a data de encerramento do semestre 2024/1;
+                    </li>
+                    <li>
+                        Para discentes do curso de Engenharia Mecânica, ter integralizado todas as unidades
+                        curriculares até a 6ª fase do curso (com exceção das Atividades Complementares) até a
+                        data de encerramento do semestre 2024/1;
+                    </li>
+                    <li>
+                        Para discentes do curso de Tecnólogo em Gestão do Agronegócio, ter integralizado todas
+                        as unidades curriculares até o 3º módulo do curso até a data de encerramento do semestre
+                        2024/1;
+                    </li>
+                    <li>
+                        Possuir coeficiente de aproveitamento acadêmico (CAA) mínimo de 0,6 no ato da
+                        inscrição;
+                    </li>
+                    <li>
+                        Ter disponibilidade para residir em Portugal por um período mínimo de 12 meses, a partir
+                        de setembro de 2024;
+                    </li>
+                </ol>
+            </div>
+
+            <div id="documentos_inscricao">
+                <h3>Documentos da Inscrição</h3>
+                <p>
+                    Os discentes participantes do Projeto de Cooperação Internacional para a Atribuição de
+                    Duplos-Diplomas deverão enviar em anexo no e-mail de inscrição os seguintes documentos:
+                </p>
+                <ol>
+
+                    <li>
+                        Ficha de inscrição preenchida e assinada (pode ser assinatura digital obtida na
+                        plataforma gov.br);
+                    </li>
+                    <li>
+                        Histórico Escolar atualizado do curso de graduação ao qual esteja matriculado;
+                    </li>
+                    <li>
+                        Currículo Lattes atualizado;
+                    </li>
+                    <li>
+                        Declaração de que não possui bolsas ou Carta de Desistência de bolsas de programas
+                        vinculados aos órgãos de fomento federais e/ou estaduais;
+                    </li>
+                    <li>
+                        Cópia do CPF e do RG;
+                    </li>
+                    <li>
+                        Cópia do Passaporte emitido pelo Departamento de Polícia Federal (com validade
+                        mínima de março/2025) ou comprovante de agendamento para a emissão/renovação do
+                        mesmo.
+                    </li>
+                </ol>
+            </div>
+
+            <div id=”considerações finais”>
+                <h3>Considerações Finais</h3>
+                <span>
+                    Sendo assim, as disciplinas cursadas (e aprovadas) no mestrado validam disciplinas da 7ª e 8ª fase
+                    de
+                    Ciência da Computação.
+                </span>
+                <span>
+                    Além disso, a dissertação de mestrado é validada como Trabalho de Conclusão de Curso, sendo que o
+                    discente terá sempre como orientação 1 docente da instituição portuguesa e 1 docente do IFSC.
+                </span>
+                <span>
+                    Ao final de todo o processo, o discente irá receber o diploma de Bacharel em Ciência da Computação
+                    no
+                    Brasil e o diploma de Mestrado em Portugal.
+                </span>
+                <p>
+                    Cabe salientar que por se tratar de um diploma expedido no exterior, para utilizar o diploma de
+                    mestrado no Brasil o discente precisa solicitar a validação do mesmo em alguma universidade federal.
+                </p>
+            </div>
+
+
+
+
+            <div>
+                <h3>Download</h3>
+                <p>
+                    Para uma análise aprofundada do programa de Dupla Titulação, bem como as datas envolvendo-o,
+                    recomenda-se a leitura de mais editais divulgados pelo portal do IFSC.
+                    <a href="https://www.ifsc.edu.br/dupla-diplomacao">Dupla Titulação - IFSC</a>
+                </p>
+                <p>
+                    <a href="./anexo/2024.1-IFSC-Campus_Lages.pdf" download="2024.1-IFSC-Campus_Lages.pdf">Edital Lages
+                        2024.1</a>
+                </p>
+                <span>Última atualização: julho de 2024</span>
             </div>
         </main>
     </div>
@@ -324,7 +338,7 @@
         </a>
 
         <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="./" class="nav-link px-2 text-body-secondary">Página inicial</a>
+            <li class="nav-item"><a href="../" class="nav-link px-2 text-body-secondary">Página inicial</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-body-secondary" href="#" role="button" data-bs-toggle="dropdown"
@@ -332,18 +346,18 @@
                     Informações
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./historia/">História</a></li>
-                    <li><a class="dropdown-item" href="./ppc/">Projeto Pedagógico do Curso (PPC)</a></li>
-                    <li><a class="dropdown-item" href="./grade-curricular/">Grade curricular</a></li>
-                    <li><a class="dropdown-item" href="./coordenacao/">Coordenação do curso</a></li>
-                    <li><a class="dropdown-item" href="./atividades-complementares/">Atividades Complementares</a></li>
-                    <li><a class="dropdown-item" href="./corpo-docente/">Corpo docente</a></li>
-                    <li><a class="dropdown-item" href="./colegiado-e-nde">Colegiado e NDE</a></li>
-                    <li><a class="dropdown-item" href="./egressos/">Egressos do curso</a></li>
-                    <li><a class="dropdown-item" href="./intercambio-propicie/">Intercâmbio PROPICIE</a></li>
-                    <li><a class="dropdown-item" href="./dupla-titulacao/">Dupla titulação</a></li>
-                    <li><a class="dropdown-item" href="./estagios/">Estágios</a></li>
-                    <li><a class="dropdown-item" href="./documentos-importantes/">Documentos importantes</a></li>
+                    <li><a class="dropdown-item" href="../historia/">História</a></li>
+                    <li><a class="dropdown-item" href="../ppc/">Projeto Pedagógico do Curso (PPC)</a></li>
+                    <li><a class="dropdown-item" href="../grade-curricular/">Grade curricular</a></li>
+                    <li><a class="dropdown-item" href="../coordenacao/">Coordenação do curso</a></li>
+                    <li><a class="dropdown-item" href="../atividades-complementares/">Atividades Complementares</a></li>
+                    <li><a class="dropdown-item" href="../corpo-docente/">Corpo docente</a></li>
+                    <li><a class="dropdown-item" href="../colegiado-e-nde">Colegiado e NDE</a></li>
+                    <li><a class="dropdown-item" href="../egressos/">Egressos do curso</a></li>
+                    <li><a class="dropdown-item" href="../intercambio-propicie/">Intercâmbio PROPICIE</a></li>
+                    <li><a class="dropdown-item" href="../dupla-titulacao/">Dupla titulação</a></li>
+                    <li><a class="dropdown-item" href="../estagios/">Estágios</a></li>
+                    <li><a class="dropdown-item" href="../documentos-importantes/">Documentos importantes</a></li>
                 </ul>
             </li>
         </ul>
