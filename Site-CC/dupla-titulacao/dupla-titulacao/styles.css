@@ -7,7 +7,8 @@ body {
     padding: 0;
 }
 
-h1, h3 {
+h1,
+h3 {
     font-family: 'Trebuchet ms', serif;
     color: #198754;
     font-weight: bold;
@@ -16,13 +17,34 @@ h1, h3 {
     margin-bottom: 20px;
 }
 
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 h3 {
     font-family: 'Trebuchet ms', serif;
     border-bottom: 2px solid #198754;
     padding-bottom: 10px;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
     text-align: justify;
     margin-bottom: 20px;
 }
@@ -121,10 +143,12 @@ section {
     padding: 20px;
 }
 
-ul, ol {
+ul,
+ol {
     padding-left: 20px;
 }
 
-ul li, ol li {
+ul li,
+ol li {
     margin-bottom: 10px;
 }
